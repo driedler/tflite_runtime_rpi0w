@@ -5,7 +5,7 @@ Taken from:
 https://www.tensorflow.org/lite/guide/build_cmake_pip
 
 
-# Install Docker for WSL (if usng Windows)
+# Install Docker for WSL (if using Windows)
 
 See https://docs.docker.com/docker-for-windows/wsl/
 
