@@ -22,7 +22,7 @@ sudo ./tensorflow/tools/ci_build/ci_build.sh PI-PYTHON37 tensorflow/lite/tools/p
 
 After the above commands run, the built wheel should be found at (in your Linux or WSL terminal):
 ```
-./tensorflow/lite/tools/pip_package/gen/tflite_pip/python3.8/dist/
+./tensorflow/lite/tools/pip_package/gen/tflite_pip/python3.7/dist/
 ```
 
 # Install 
