@@ -17,7 +17,7 @@ See https://docs.docker.com/docker-for-windows/wsl/
 
 git clone --branch v2.5.0  https://github.com/tensorflow/tensorflow.git
 cd tensorflow
-sudo ./tensorflow/tools/ci_build/ci_build.sh PI-PYTHON38 tensorflow/lite/tools/pip_package/build_pip_package_with_cmake.sh rpi0
+sudo ./tensorflow/tools/ci_build/ci_build.sh PI-PYTHON37 tensorflow/lite/tools/pip_package/build_pip_package_with_cmake.sh rpi0
 ```
 
 After the above commands run, the built wheel should be found at (in your Linux or WSL terminal):
@@ -25,4 +25,10 @@ After the above commands run, the built wheel should be found at (in your Linux 
 ./tensorflow/lite/tools/pip_package/gen/tflite_pip/python3.8/dist/
 ```
 
+# Install 
 
+To install, issue the following command on your RPI
+
+```
+sudo pip3 install https://github.com/driedler/tflite_runtime_rpi0w/raw/master/tflite_runtime-2.5.0-cp37-cp37m-linux_armv6l.whl
+```
