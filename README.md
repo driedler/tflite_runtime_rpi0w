@@ -30,5 +30,5 @@ After the above commands run, the built wheel should be found at (in your Linux 
 To install, issue the following command on your RPI
 
 ```
-sudo pip3 install https://github.com/driedler/tflite_runtime_rpi0w/raw/master/tflite_runtime-2.5.0-cp37-cp37m-linux_armv6l.whl
+sudo pip3 install https://github.com/driedler/tflite_runtime_rpi0w/releases/download/2.5.0/tflite_runtime-2.5.0-cp37-cp37m-linux_armv6l.whl
 ```
