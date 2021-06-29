@@ -4,6 +4,7 @@ tflite_runtime Python wheel for Raspberry PI Zero W
 Taken from:
 https://www.tensorflow.org/lite/guide/build_cmake_pip
 
+__NOTE:__ See [tflite_micro_runtime](https://github.com/driedler/tflite_micro_runtime) which runs __8x__ faster on the RPI0.
 
 # Install Docker for WSL (if using Windows)
 
